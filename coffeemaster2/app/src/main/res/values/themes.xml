@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="Theme.coffemaster2" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/coffee_brown</item>
+        <item name="colorPrimaryVariant">@color/coffee_brown</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/light_beige</item>
+        <item name="colorOnSecondary">@color/coffee_brown</item>
+
+        <item name="android:windowBackground">@color/light_beige</item>
+        <item name="android:textColorPrimary">@color/coffee_brown</item>
+        <item name="android:textColorSecondary">@color/dark_gray</item>
+    </style>
+</resources>
+

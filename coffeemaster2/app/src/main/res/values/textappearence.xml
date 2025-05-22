@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Large title -->
+    <style name="TextAppearance.CoffeeMaster.TitleLarge" parent="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/courgette</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/coffee_brown</item>
+    </style>
+
+    <!-- Body text -->
+    <style name="TextAppearance.CoffeeMaster.BodyLarge" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:fontFamily">@font/courgette</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+
+    <!-- Small label -->
+    <style name="TextAppearance.CoffeeMaster.LabelSmall" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:fontFamily">@font/courgette</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/coffee_brown</item>
+    </style>
+
+</resources>

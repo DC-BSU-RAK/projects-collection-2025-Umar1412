@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Espresso Section -->
+        <TextView
+            android:text="Espresso (BEST-SELLING)"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/espresso"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Espresso remove button -->
+            <Button
+                android:id="@+id/espressoRemoveButton"
+                android:text="Remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- Espresso count -->
+            <TextView
+                android:id="@+id/espressoCountText"
+                android:text="0"
+                android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+
+            <!-- Espresso add button -->
+            <Button
+                android:id="@+id/espressoAddButton"
+                android:text="Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Espresso sugar txt -->
+        <TextView
+            android:text="Sugar:"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Espresso sugar selector -->
+        <NumberPicker
+            android:id="@+id/espressoSugarSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Cappuccino Section -->
+        <TextView
+            android:text="Cappuccino"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/cappuccino"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Cappuccino remove button -->
+            <Button
+                android:id="@+id/cappuccinoRemoveButton"
+                android:text="Remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- Cappuccino text -->
+            <TextView
+                android:id="@+id/cappuccinoCountText"
+                android:text="0"
+                android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+
+            <!-- Cappuccino add button -->
+            <Button
+                android:id="@+id/cappuccinoAddButton"
+                android:text="Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Cappuccino sugar txt -->
+        <TextView
+            android:text="Sugar:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Cappuccino sugar selector -->
+        <NumberPicker
+            android:id="@+id/cappuccinoSugarSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Cappuccino milk title -->
+        <TextView
+            android:text="Milk:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Cappuccino milk selector -->
+        <NumberPicker
+            android:id="@+id/cappuccinoMilkSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Latte Section -->
+        <TextView
+            android:text="Latte"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/latte"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Latte remove button -->
+            <Button
+                android:id="@+id/latteRemoveButton"
+                android:text="Remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- Latte count -->
+            <TextView
+                android:id="@+id/latteCountText"
+                android:text="0"
+                android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+
+            <!-- Latte add button -->
+            <Button
+                android:id="@+id/latteAddButton"
+                android:text="Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Latte sugar title -->
+        <TextView
+            android:text="Sugar:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Latte sugar selector -->
+        <NumberPicker
+            android:id="@+id/latteSugarSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Latte milk title -->
+        <TextView
+            android:text="Milk:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Latte milk selector -->
+        <NumberPicker
+            android:id="@+id/latteMilkSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Checkout button -->
+        <Button
+            android:id="@+id/checkoutButton"
+            android:text="Checkout"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
